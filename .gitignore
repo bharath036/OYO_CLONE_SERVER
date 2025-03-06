@@ -1,0 +1,52 @@
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Django secret keys, environment variables
+.env
+*.env
+
+# Ignore SQLite database (if using SQLite)
+db.sqlite3
+*.db
+
+# Ignore logs and debug files
+logs/
+*.log
+*.out
+*.pid
+
+# Ignore media and static files
+#media/
+#staticfiles/
+#static/
+
+# Ignore virtual environment
+venv/
+myprojectenv/
+*.bak
+
+# Ignore compiled files (like migrations cache)
+*.mo
+*.swp
+*.swo
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore system files (Mac & Windows specific)
+.DS_Store
+Thumbs.db
+
+# Ignore deployment files
+*.pem
+*.crt
+*.key
+*.sock
+*.pid
+/run/
